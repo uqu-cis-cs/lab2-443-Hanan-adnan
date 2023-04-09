@@ -56,6 +56,7 @@ public class Garage{
         for(int i=0;i<cars.length;i++){
         cars[i]=new Car();
         } 
+     }
     /************ Part 4 **************/
     /**
      * Define addCar(String parameter) that adds a new car (by model) to the garage 
