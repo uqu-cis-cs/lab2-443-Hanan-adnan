@@ -22,7 +22,7 @@ public class Car{
      *
      */
      private String model;
-    private boolean inOutGrage;
+    private boolean inOutGarage;
 
     /************ Part 2 **************/
     /**
@@ -36,10 +36,9 @@ public class Car{
      * }
      */
 
-
       public Car(){
      this.model="";
-    this.inOutGrage=false;
+    this.inOutGarage=false;
     }
     /************ Part 3 **************/
     /**
@@ -51,14 +50,13 @@ public class Car{
      * }
      */
 
-
-      public String getModel(){
-      return this.model;}
-
-      public boolean getinOutGrage(){
-       return this.inOutGrage;
-    
+       public String getModel() {
+        return this.model;
     }
+        public boolean getInOutGarage() {
+        return this.inOutGarage;
+    }
+    
     /************ Part 4 **************/
     /**
      * Define all setter methods below
@@ -68,14 +66,12 @@ public class Car{
      * }
      *
      */
-
-
-  public void setModel(String m){
-    this.model=m;
+      public void setModel(String model) {
+        this.model = model;
     }
 
-    public void setinOutGrage(boolean f){
-    this.inOutGrage=f;
+    public void setInOutGarage(boolean inOutGarage) {
+        this.inOutGarage = inOutGarage;
     }
 
     /************ Part 5 **************/
@@ -86,13 +82,14 @@ public class Car{
      *
      */
 
-    
+  
     public void moveCarOut(){
-      this.inOutGrage=false;
+      this.inOutGarage=false;
+    
     }
     
-    public void moveCarIn(){
-    this.inOutGrage=true;
+      public void moveCarIn(){
+      this.inOutGarage=true;
     }
 
 
